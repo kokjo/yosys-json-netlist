@@ -1,0 +1,13 @@
+[package]
+name = "yosys-json-netlist"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jonas Rudloff"]
+license = "MIT"
+repository = "https://github.com/kokjo/yosys-json-netlist"
+keywords = ["json", "netlist", "yosys", "serde"]
+
+[dependencies]
+indexmap = { version = "2.10.0", features = ["serde"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = { version = "1.0.142", features = ["indexmap", "preserve_order"] }
