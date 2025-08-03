@@ -4,7 +4,10 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Jonas Rudloff"]
 license = "MIT"
+description = "Serde parser for Yosys's JSON netlist format"
+homepage = "https://github.com/kokjo/yosys-json-netlist"
 repository = "https://github.com/kokjo/yosys-json-netlist"
+readme = "README.md"
 keywords = ["json", "netlist", "yosys", "serde"]
 
 [dependencies]
